@@ -93,6 +93,24 @@ Disadvantages:
 
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
 
+Meaning: a commit is a snapshot of your project at a particular moment in time.
+
+Steps involved:
+1. create a new repository on github
+2. clone the repository locally
+3. add files to the repository
+4. stage the files, using 'git add .' or " git add 'specific_file'"
+5. commit the changes, using the command, "git commit -m 'your_message'"
+6. link the repository to github if created locally, using the command, "git remote add origin https://github.com/your-username/fetchfast.git" then "git branch -M main"
+7. push the commit to github, using the command, "git push -u origin main"
+
+Why commits are important?
+1. they help in version control by tracking changes over time.
+2. they help in collaboration by allowing developers to work on different parts without conflicts.
+3. allow restoration of previous versions in needed.
+4. provides documentation by providing a history of why changes were made.
+
+
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
 
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
